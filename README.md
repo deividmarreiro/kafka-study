@@ -32,7 +32,7 @@ docker-compose logs kafka | grep -i started
 
 ### Related Links
 #### Shell Script Study
-- [For Loop](https://imasters.com.br/desenvolvimento/bash-for-loop-primeiro-passo-na-automacao-no-linux)
+- [For Loop](https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script)
 
 #### Kafka Study
 - [Medium: Aprendendo na prática](https://medium.com/trainingcenter/apache-kafka-codifica%C3%A7%C3%A3o-na-pratica-9c6a4142a08f)
