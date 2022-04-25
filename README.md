@@ -7,7 +7,7 @@ This is my journey studying Apache Kafka along with another things, like Docker 
 and some new programming languages like Go, Shell Scripting and JavaScript<br>
 relearn Java 😅
 
-My [Notion](google.com) with my journey!
+My [Notion](https://www.notion.so/Apache-Study-5e54d7a4150b4d16964bdb516d0a3620) with my journey!
 
 
 ## Setup
@@ -68,7 +68,11 @@ options:
 ### Related Links
 #### Shell Script Study
 - [For Loop](https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script)
+- [How to Use Command Line Arguments in a Bash Script](https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script)
+- [Bash getopts](https://www.computerhope.com/unix/bash/getopts.htm)
+- [Parse Command Line Arguments in Bash](https://www.baeldung.com/linux/bash-parse-command-line-arguments)
 
 #### Kafka Study
-- [Medium: Aprendendo na prática](https://medium.com/trainingcenter/apache-kafka-codifica%C3%A7%C3%A3o-na-pratica-9c6a4142a08f)
 - [Github: Confluent Inc. (Apache Kafka®)](https://github.com/confluentinc/cp-docker-images)
+- [Medium: Aprendendo Kafka](https://medium.com/trainingcenter/apache-kafka-codifica%C3%A7%C3%A3o-na-pratica-9c6a4142a08f)
+- [Kafka Cheat Sheet](https://github.com/lensesio/kafka-cheat-sheet)
