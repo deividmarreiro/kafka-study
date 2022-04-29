@@ -37,6 +37,12 @@ for option in "$@"; do
       --topic "$2"
     shift
     ;;
+  --delete-topic)
+    docker-compose exec kafka kafka-topics --delete \
+      --zookeeper "$ZOOKEEPER_URL" \
+      --topic "$2"
+    shift
+    ;;
   --test-prod)
     docker-compose exec kafka \
       bash -c "seq 100 | kafka-console-producer --request-required-acks 1 --broker-list $KAFKA_URL --topic $2 && echo 'Produced 100 messages.'"

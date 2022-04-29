@@ -3,7 +3,7 @@ import random
 
 from kafka import KafkaProducer
 
-producer = KafkaProducer(bootstrap_servers='localhost:29092',
+producer = KafkaProducer(bootstrap_servers='localhost:9092',
                          value_serializer=lambda message: json.dumps(message).encode('utf-8'))
 
 print("Ctrl+c to Stop!")
