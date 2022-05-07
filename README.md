@@ -62,7 +62,8 @@ options:
 ```
 
 # TODO
-- [ ] Create a consumer in Go for the Producer
+- [x] Create a consumer in Go for the Producer
+  - [ ] Create two consumers, one to do the sum of the numbers in the messages and another to do the average
 - [ ] Search for a GUI to see the Kafka Messages
 
 ### Related Links
