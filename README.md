@@ -61,10 +61,10 @@ options:
 ./kafka-utils.sh --test-cons "test-topic"
 ```
 
-# TODO
-- [x] Create a consumer in Go for the Producer
-  - [ ] Create two consumers, one to do the sum of the numbers in the messages and another to do the average
-- [ ] Search for a GUI to see the Kafka Messages
+## Todo
+
+- [ ] Create a ReadME for the py-go-app
+
 
 ### Related Links
 #### Shell Script Study

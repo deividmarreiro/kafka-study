@@ -7,9 +7,12 @@ import (
 
 func main() {
 
+	const KafkaTopic = "purchase-topic"
+	const KafkaHost = "localhost:9092"
+
 	c, err := kafka.NewConsumer(&kafka.ConfigMap{
-		"bootstrap.servers": "localhost:9092",
-		"group.id":          "myGroup",
+		"bootstrap.servers": KafkaHost,
+		"group.id":          "go-group",
 		"auto.offset.reset": "earliest",
 	})
 
@@ -17,7 +20,9 @@ func main() {
 		panic(err)
 	}
 
-	c.SubscribeTopics([]string{"kafka-python-topic", "^aRegex.*[Tt]opic"}, nil)
+	c.SubscribeTopics([]string{KafkaTopic}, nil)
+
+	fmt.Printf("Ctrl + C to Stop!")
 
 	for {
 		msg, err := c.ReadMessage(-1)
